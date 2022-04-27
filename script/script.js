@@ -1,4 +1,7 @@
 $(function(){
+
+
+    // 햄버거 메뉴 이벤트
     $("header > div").click(function(){
         $("#menu-contents").slideToggle();
         if($("#burgur").hasClass('on')){
@@ -8,6 +11,7 @@ $(function(){
           }  
     });
     
+    // star 슬라이드 이벤트
     let idx = 0;
     let itemcnt = $(".profile-wrap").length-1;
     $(".prev").click(function(){
@@ -36,5 +40,13 @@ $(function(){
     });
     $("#submenu li").click(function(){
         $(".contents").fadeToggle();
+    });
+
+
+    // 이미지 갤러리
+    $('#photo-inner img').click(function(event) {
+        event.preventDefault();
+        var src = $(this).attr('src');
+        $('#photo>img').attr({src: src}).css({display: 'none'}).fadeIn(800);
     });
 });
