@@ -3,7 +3,7 @@ $(function(){
 
     // 햄버거 메뉴 이벤트
     $("header > div").click(function(){
-        $("#menu-contents").slideToggle();
+        $("#menu-contents").stop().slideToggle();
         if($("#burgur").hasClass('on')){
             $("#burgur").removeClass('on');
           } else{
@@ -49,4 +49,11 @@ $(function(){
         var src = $(this).attr('src');
         $('#photo>img').attr({src: src}).css({display: 'none'}).fadeIn(800);
     });
+
+
+    // about.html
+
+    $(".about-contents p").delay(3000).animate({
+        width : 0
+    },1000);
 });

@@ -490,7 +490,7 @@ header > div{
 }
 .audition-sns{
     position: absolute;
-    bottom: 5%;
+    bottom: 6%;
     right: 5%;
 }
 .audition-sns a{
@@ -501,4 +501,41 @@ header > div{
 }
 .audition-sns img:hover{
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 0, 0));
+}
+
+
+/* about.html */
+.about-contents{
+    font-size: 150px;
+    color: white;
+    font-family: "azonix";
+    padding-top: 100px;
+}
+.about-contents h2,.about-contents p{
+    display: inline-block;
+}
+.about-contents p{
+    font-size: 60px;
+    overflow: hidden;
+}
+.back-logo{
+    position: absolute;
+    opacity: .05;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.back-logo img{
+    width: 50%;
+}
+.about-desc{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#circle-wrap{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
 }
