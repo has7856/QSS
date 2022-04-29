@@ -19,7 +19,7 @@ header{
     left: 5%;
     justify-content: space-between;
     z-index: 10;
-    height: 100px;
+    height: 5rem;
     align-items: center;
 }
 #logo{
@@ -30,8 +30,8 @@ header{
 /* 메뉴 아이콘 */
 
 header > div{
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
 }
 
@@ -527,7 +527,7 @@ header > div{
 }
 
 /* 반응형 */
-@media screen and (min-width : 1920px){
+@media screen and (min-width : 1200px){
     #star-profile{
         width: 1200px;
         height: 100%;
