@@ -116,7 +116,7 @@ header > div{
     margin: 0 auto;
 }
 #menu-contents{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 9;
@@ -581,7 +581,7 @@ header > div{
         width: 100%;
     }
     .back-logo{
-        top: 45%;
+        top: 25%;
     }
     .about-contents h2,  .about-contents p{
         padding-top: 2em;
