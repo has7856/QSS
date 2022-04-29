@@ -566,17 +566,17 @@ header > div{
 
 @media screen and (max-width : 767px){
     .main-contents h2, .about-contents h2{
-        font-size: 70px;
+        font-size: 0.6em;
     }
     .main-contents p, .about-contents p{
-        font-size: 25px;
+        font-size: 0.3em;
     }
     #gnb{
         display: block;
-        font-size: 80px;
+        font-size: 3em;
     }
     #gnb li{
-        margin: 50px 0;
+        margin: 1em 0;
     }
     #footer{
         display: none;
@@ -596,10 +596,10 @@ header > div{
         top: 45%;
     }
     .about-contents h2,  .about-contents p{
-        padding-top: 200px;
+        padding-top: 2em;
     }
     .about-desc{
-        font-size: 40px;
+        font-size: 1.5em;
         line-height: 60px;
         font-weight: normal;
     }
@@ -608,26 +608,23 @@ header > div{
         height: 100%;
     }
     .audition-contents > img{
-        height: 901px;
+        height: 900px;
     }
     #star-profile{
         overflow: auto;
         display: flex;
         flex-wrap: wrap;
-        column-gap: 10px;
-        padding-top: 100px;
+        padding-top: 7rem;
         width: 95%;
         margin: 0 auto;
         justify-content: space-between;
+        height: 200%;
     }
     .angle{
         display: none;
     }
-    .profile-wrap{
-        padding-bottom: 30px;
-    }
     .profile-wrap > img{
-        height: 300px;
+        height: 30rem;
     }
     .profile-wrap > div{
         position: inherit;
@@ -635,12 +632,9 @@ header > div{
         left: 0;
     }
     .profile-wrap > div > h2{
-        font-size: 20px;
-        margin-top: 10px;
-        line-height: 40px;
-    }
-    .profile-wrap > div > p{
-        display: none;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        line-height: 4rem;
     }
     
     .profile-wrap > div > h2 > span{
