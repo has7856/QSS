@@ -30,22 +30,23 @@ header{
 /* 메뉴 아이콘 */
 
 header > div{
-    width: 3rem;
-    height: 3rem;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+    display: block;
 }
 
 .burgur{
     top: 40px;
     position: absolute;
     width: 30px;
-    height: 3px;
+    height: 2px;
     background: white;
   }
 
 .burgur .top-line{
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: white;
     bottom: -10px;
     content: '';
@@ -68,7 +69,7 @@ header > div{
 }
 .burgur .bot-line {
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: white;
     top: -10px;
     content: '';
@@ -128,11 +129,11 @@ header > div{
 
 #gnb{
     display: flex;
-    font-size: 48px;
+    font-size: 3em;
     font-family: "Audiowide";
     justify-content: space-between;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 5em;
 }
 #gnb > li > a{
     transition-duration: .6s;
@@ -144,15 +145,15 @@ header > div{
 #sns{
     display: flex;
     justify-content: center;
-    column-gap: 40px;
-    margin-top: 200px;
+    column-gap: 3em;
+    margin-top: 15em;
 }
 #sns img{
     transition-duration: .4s;
 }
 #footer{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5em;
     font-size: 1rem;
 }
 #footer > p{
@@ -173,7 +174,7 @@ header > div{
     color: white;
 }
 .profile-wrap > img{
-    height: 700px;
+    height: 75%;
     display: block;
     margin: 0 auto;
 }
@@ -185,16 +186,16 @@ header > div{
     text-shadow: 0 4px 4px black;
 }
 .profile-wrap > div h2{
-    font-size: 60px;
+    font-size: 4em;
     font-family: "Audiowide";
 }
 .profile-wrap > div > p{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 .fa{
-    font-size: 30px;
+    font-size: 2rem;
     letter-spacing: 10px;
 }
 /* star.html > section > submenu */
@@ -214,8 +215,8 @@ header > div{
     margin: 0 auto;
     font-family: "Audiowide";
     color: white;
-    font-size: 20px;
-    line-height: 99px;
+    font-size: 1.25rem;
+    line-height: 500%;
 }
 #submenu > ul > li > a{
     transition-duration: .4s;
@@ -237,7 +238,7 @@ header > div{
 
 }
 #star-section > h2{
-    font-size: 60px;
+    font-size: 4rem;
     color: white;
     font-family: "audiowide";
 }
@@ -345,21 +346,19 @@ header > div{
     }
   }
   .news-list li{
-      height: 200px;
       border-bottom: 1px solid white;
   }
   .news-list li:first-child{
     border-top: 1px solid white;
 }
   .news-list a{
-      padding: 25px;
+      padding: 1rem;
       display: flex;
       justify-content: space-between;
       text-align: left;
   }
   .thumb{
       width: 23%;
-      height: 150px;
       overflow: hidden;
       position: relative;
   }
@@ -377,13 +376,13 @@ header > div{
       overflow: hidden;
   }
   .news-view h2{
-      font-size: 25px;
+      font-size: 1.5rem;
       font-weight: bold;
-      line-height: 40px;
-      margin-bottom: 20px;
+      line-height: 2rem;
+      margin-bottom: 1rem;
   }
   .news-view p{
-      line-height: 25px;
+      line-height: 1.5rem;
   }
   #gap{
       display: block;
@@ -397,20 +396,16 @@ header > div{
       margin: 0 auto;
   }
 
-  #photo{
-      width: 600px;
-  }
-
   #photo-list{
-      width: 600px;
+      width: 100%;
       margin: 0 auto;
   }
   #photo-list h2{
     color: white;
     font-family: "audiowide";
     text-align: left;
-    font-size: 20px;
-    margin: 40px 0 20px 0;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
   }
   #photo-inner{
     display: flex;
@@ -419,7 +414,7 @@ header > div{
   }
   #photo-inner li{
     width: 31%;
-    padding-bottom: 20px;
+    padding-bottom: 1.2rem;
   }
   #photo-inner a{
       display: block;
@@ -436,8 +431,7 @@ header > div{
   /* audition.html css */
 
   .audition-contents{
-      width: 900px;
-      height: 500px;
+      width: 70%;
       margin: 0 auto;
       overflow: hidden;
   }
@@ -452,8 +446,8 @@ header > div{
       left: 50%;
       transform: translate(-50%,-50%);
       text-align: left;
-      font-size: 70px;
-      line-height: 70px;
+      font-size: 5rem;
+      line-height: 5rem;
       font-family: 'DM Serif Display', serif;
       display: block;
       width: 60%;
@@ -464,7 +458,7 @@ header > div{
   .audition-contents p{
     position: absolute;
     color: white;
-    top: 58%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: left;
@@ -477,7 +471,7 @@ header > div{
     right: 5%;
 }
 .audition-sns a{
-    margin: 5px;
+    margin: .5rem;
 }
 .audition-sns img{
     transition-duration: .4s;
@@ -489,10 +483,10 @@ header > div{
 
 /* about.html */
 .about-contents{
-    font-size: 150px;
+    font-size: 10rem;
     color: white;
     font-family: "azonix";
-    padding-top: 100px;
+    padding-top: 5rem;
 }
 .about-contents h2{
     color: red;
@@ -516,16 +510,9 @@ header > div{
 }
 .about-desc{
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
 }
-#circle-wrap{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    column-gap: 50px;
-}
-
 /* 반응형 */
 @media screen and (min-width : 1200px){
     #star-profile{
